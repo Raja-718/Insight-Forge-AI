@@ -22,3 +22,4 @@ def tool_generate_chart(file_path: str, chart_type: str = "bar") -> str:
     df = load_file(file_path)
     path = generate_chart(df, chart_type)
     return f"Chart saved at: {path}"
+
